@@ -1,7 +1,7 @@
 
 def square_array(array)
  counter = 0
- my_array=[]
+ my_array=[0]
   while counter < array.length do
   my_array += array[counter]**2
     counter += 1
